@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const accItems = document.querySelectorAll(".item__text-wrap");
     const headlines = document.querySelectorAll(".accordion__headline");
     const ul = document.getElementById("listWrap");
-    console.log(ul);
    
     const textWrap = document.querySelectorAll(".head__text-wrap");
     const textContent = document.querySelectorAll(".section4__content-text");
@@ -39,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         deductSlide();
         counter--;
-        console.log(counter);
     });
 
     arrowRight.addEventListener("click", function () {
@@ -49,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         plusSlide();
         counter++;
-        console.log(counter);
     });
 
     // window.setInterval(timeSlider, 7000);
@@ -123,7 +120,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("scroll", () => {
         let scroll = window.pageYOffset;
-        console.log(scroll);
     });
     
 
