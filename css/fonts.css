@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Malina";
+    src: url("/css/fonts/malina-webfont.eot");
+    src:
+    url("/css/fonts/malina-webfont.woff") format("woff"),
+    url("/css/fonts/malina-webfont.woff2") format("woff2"),
+    url("/css/fonts/malina-webfont.ttf") format("tff"),
+    url("/css/fonts/malina-webfont.svg") format("svg");
+    }
+
+    /* @font-face {
+        font-family: "Slick";
+        src: url("/css/fonts/slick/slick.eot");
+        src:
+        url("/css/fonts/slick/slick.woff") format("woff"),
+        url("/css/fonts/slick/slick.ttf") format("tff"),
+        url("/css/fonts/slick/slick.svg") format("svg");
+        } */

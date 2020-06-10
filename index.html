@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Andika&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Mono:500&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet"> -->
+
+    <!-- CSS Styles -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <title>Task</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <div class="container">
+
+
+                <nav>
+                    <div class="header__sidebar">
+                        <div class="header__logo">
+                            <img src="img/logo.png" alt="">
+                            <div class="header__logo-brand">
+                                <H2>Hipsweet</H2>
+                            </div>                         
+                        </div>
+
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Сладости</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Компания</a></li>
+                                <li id="team">
+                                    <a href="#">Команда</a>
+                                    <div class="menu__hover" id="hover">
+                                        <ul>
+                                            <li><a href="">Тони Ройстер</a></li>
+                                            <li><a href="">Ричард Джейс</a></li>
+                                            <li><a href="">Марти Модстер</a></li>
+                                            <li><a href="">Тони Ройстер</a></li>
+                                            <li><a href="">Ричард Джейс</a></li>
+                                        </ul>
+                                    </div>   
+                                </li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+                            
+                    </div>
+                </nav>
+                
+
+                <div class="header__content">
+
+                    <div class="header__slider" id="header__slider">
+                        <div class="slider__arrow-left" id="arrowLeft"></div>
+                        <div class="slider__arrow-right" id="arrowRight"></div>
+
+                        <div class="slide header__slide">
+                            <div class="header__content-left">
+                                <div class="details">
+                                    <div></div>
+                                    <h4>Ингридиенты</h4>
+                                </div>
+                                <div class="hours">
+                                    <h3>Срок xранения:</h3>
+                                    <span>140 часов</span>
+                                </div>
+                            </div>
+                            <div class="header__content-right">
+                                <h1>Spice<br>Cupcake</h1>
+                                <div class="header__content-right-text">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Enim rem praesentium earum temporibus, eum tempora exercitationem beatae 
+                                        dolorem quibusdam ab error incidunt laborum doloribus quasi. Quaerat iure nulla maxime 
+                                        nobis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim rem praesentium earum temporibus, 
+                                        eum tempora exercitationem beatae dolorem quibusdam ab error incidun</p>
+                                </div>
+                                <div class="price">
+                                    <span><h2>200</h2> р</span>
+                                    <a href="#">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- next slide -->
+                        <div class="slide header__slide-active">
+                            <div class="header__content-left">
+                                <div class="details">
+                                    <div></div>
+                                    <h4>Ингридиенты</h4>
+                                </div>
+                                <div class="hours">
+                                    <h3>Срок xранения:</h3>
+                                    <span>120 часов</span>
+                                </div>
+                            </div>
+                            <div class="header__content-right">
+                                <h1>Sweet<br>Cupcake</h1>
+                                <div class="header__content-right-text">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Enim rem praesentium earum temporibus, eum tempora exercitationem beatae 
+                                        dolorem quibusdam ab error incidunt laborum doloribus quasi. Quaerat iure nulla maxime 
+                                        nobis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim rem praesentium earum temporibus, 
+                                        eum tempora exercitationem beatae dolorem quibusdam ab error incidun</p>
+                                </div>
+                                <div class="price">
+                                    <span><h2>199</h2> р</span>
+                                    <a href="#">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <!-- next slide -->
+                        <div class="slide header__slide">
+                                <div class="header__content-left">
+                                    <div class="details">
+                                        <div></div>
+                                        <h4>Ингридиенты</h4>
+                                    </div>
+                                    <div class="hours">
+                                        <h3>Срок xранения:</h3>
+                                        <span>130 часов</span>
+                                    </div>
+                                </div>
+                                <div class="header__content-right">
+                                    <h1>Cold Wall</h1>
+                                    <div class="header__content-right-text">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Enim rem praesentium earum temporibus, eum tempora exercitationem beatae 
+                                            dolorem quibusdam ab error incidunt laborum doloribus quasi. Quaerat iure nulla maxime 
+                                            nobis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim rem praesentium earum temporibus, 
+                                            eum tempora exercitationem beatae dolorem quibusdam ab error incidun</p>
+                                    </div>
+                                    <div class="price">
+                                        <span><h2>250</h2> р</span>
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                        </div> 
+
+                    </div>
+
+                    <div class="slider__dots">
+                        <span class="dot"></span>
+                        <span class="dot slider__dot-active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION-2 -->
+    <section style="width: 100%;height:100vh; background-color: #dbdbdb">
+       <div class="container">
+            <div class="section-2__wrap">
+                <div class="section2__content">
+                    <div class="section-2__content-text">
+                        <h1 class="">Почему так<br> вкусно ?</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora ipsa, sint dolorum obcaecati sapiente nulla iste qui, commodi ducimus labore quam? Fuga dolor alias sint error eaque est veniam.ipsum dolor sit amet consectetur adipisicing elit. Minima tempora ipsa, sint dolorum obcaecati sapiente nulla iste qui, commodi ducimus labore quam? Fuga dolor alias sint error eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora ipsa, sint </p>
+                    </div>
+                    <div class="section-2__items-wrap">
+                        <div class="section2__item wow fadeInLeft">
+                            <div class="section2__item-img"><img src="/img/taste/hat.png" alt=""></div>
+                            <h4>Лучшие повора<br> своего дела</h4>
+                        </div>
+                        <div class="section2__item wow fadeInLeft" data-wow-delay="0.5s">
+                            <div class="section2__item-img"><img src="/img/taste/leafes.png" alt=""></div>
+                            <h4>Свежие<br> ингредиенты</h4>
+                        </div>
+                        <div class="section2__item wow fadeInLeft" data-wow-delay="1s">
+                            <div class="section2__item-img"><img src="/img/taste/heart.png" alt=""></div>
+                            <h4>Приготовлено с<br> любовью</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2__cook">
+                    <img src="/img/taste/cook.png" alt="">
+                </div>
+            </div>
+       </div>
+    </section>
+
+
+
+    <!-- SECTION-3 -->
+    <section style=" background-image: url(/img/supply/pattern.jpg);
+    background-repeat: repeat-y; background-size: 100%">
+        <div class="container">
+            <div class="section3__wrap">
+                <div class="section3__head">
+                    <h1>Мы поставляем</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas dicta quos vitae sunt illum facere at, accusantium amet quae blanditiis omnis nobis aliquam! Inventore maiores ad pariatur esse</p>
+                </div>
+
+                <div class="section3__items">
+                    <div class="section3__item-wrap wow zoomIn">
+                        <div class="section3__item-img">
+                            <img src="img/supply/cakes.png" alt="">
+                        </div>
+                        <h2>Торты</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.3s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/cookies.png" alt="">
+                        </div>
+                        <h2>Печенье</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.6s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/donuts.png" alt="">
+                        </div>
+                        <h2>Пончики</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.9s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/rolls.png" alt="">
+                        </div>
+                        <h2>Рулеты</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn">
+                        <div class="section3__item-img">
+                            <img src="img/supply/zefir.png" alt="">
+                        </div>
+                        <h2>Зефир</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.3s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/chocolate.png" alt="">
+                        </div>
+                        <h2>Шоколад</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.6s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/brownies.png" alt="">
+                        </div>
+                        <h2>Пирожное</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+                    <div class="section3__item-wrap wow zoomIn" data-wow-delay="0.9s">
+                        <div class="section3__item-img">
+                            <img src="img/supply/candies.png" alt="">
+                        </div>
+                        <h2>Конфеты</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi dolorum repellendus, mollitia provident cupiditate tenetur nam deserunt quis natus labore voluptate blanditiis voluptas aliquid minus consectetur vero expedita nobis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION-4 -->
+    <section style="background-color: #e2e2e2">
+        <div class="container">
+            <div class="section4__wrap">
+             
+                <div class="section4__head">
+                    <h1>Наша<br> команда</h1>
+                    <ul>
+                        <li class="head__text-wrap wow fadeInRight" id="0">
+                            <div class="section4__head-text">
+                                <h2>Тони<br> Ройстер</h2>
+                                <span>Главный Шефповар</span>
+                            </div>
+                        </li>
+                        <li class="head__text-wrap wow fadeInRight" data-wow-delay="0.4s" id="1">
+                            <div class="section4__head-text">
+                                <h2>Ричард<br> Джейс</h2>
+                                <span>Главный Кондитер</span>
+                            </div>
+                        </li>
+                        <li class="head__text-wrap wow fadeInRight" data-wow-delay="0.8s" id="2">
+                            <div class="section4__head-text team__head-active">
+                                <h2>Майти<br> Модстер</h2>
+                                <span>Дегустатор</span>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+
+                <div class="section4__content">
+                    <div class="section4__content-text">
+                        <div class="section4__content-text__left">
+                            <p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                    Lorem ipsum,  Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum ? Nam debitis nemo libero delectus!
+                            </p>
+                            <p class="strong"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores</b></p>
+                        </div>
+                        <div class="section4__content-text__right">
+                            <p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, deleniti sunt? Dignissimos rem autem architecto culpa est laudantium voluptatibus ad, commodi repudiandae, id iusto ipsam ipsa atque odio, ea officiis?
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo  soluta alias sint totam? Nam debitis nemo libero delectus!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section4__content-text">
+                            <div class="section4__content-text__left">
+                                <p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                </p>
+                                <p class="strong"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores</b></p>
+                            </div>
+                            <div class="section4__content-text__right">
+                                <p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, deleniti sunt? Dignissimos rem autem architecto culpa est laudantium voluptatibus ad, commodi repudiandae, id iusto ipsam ipsa atque odio, ea officiis?
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="section4__content-text team-active">
+                            <div class="section4__content-text__left">
+                                <p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                </p>
+                                <p class="strong"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatum nihil explicabo est dolores</b></p>
+                            </div>
+                            <div class="section4__content-text__right">
+                                <p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, deleniti sunt? Voluptatibus ad, commodi repudiandae, id iusto ipsam ipsa atque odio, ea officiis?
+                                        Lorem ipsum, laboriosam delectus iusto quod, sequi laborum magni soluta alias sint totam? Nam debitis nemo libero delectus!
+                                </p>
+                            </div>
+                    </div>
+                </div> 
+
+
+                <div class="section4__form">
+                    <div class="section4__content">
+                        <div class="section4__content-left wow fadeIn">
+                            <h1>Закажи<br> сейчас</h1>
+                        </div>
+                        <div class="section4__content-right">
+                            <form action="" name="name" placeholder="Enter your name">
+                                <input type="text" name="name" placeholder="Enter your name">
+                                <input type="text" name="surname" placeholder="Enter your sername">
+                                <input type="tel" name="phone" placeholder="Enter your phone">
+                                <div class="form-wrap">
+                                    <input type="checkbox" name="agreement">
+                                    <label for="agreement">Заказать обратный звонок</label>
+                                </div>
+                                <div class="submit-wrap">
+                                    <input type="submit" name="go" placeholder="" value="">
+                                </div>
+                               
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION-5 -->
+    <section class="parallax">
+        <div class="parallax-1"></div>
+        <div class="container">
+            <div class="section5__wrap">
+                <h2 class="wow fadeIn" data-wow-delay="2s">Часто задаваемые вопросы</h2>
+                <div class="section5__accordion">
+                    <ul id="listWrap">
+                        <li>
+                            <div class="accordion__item wow fadeInLeft">
+                                <h3 class="accordion__headline">1. Сколько по времени курьер доставляет еду ?</h3>
+                                <div class="item__text-wrap">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item wow fadeInLeft" data-wow-delay="0.2s">
+                                <h3 class="accordion__headline">2. Если курьер опоздал, будут ли какие-то бонусы ?</h3>
+                                <div class="item__text-wrap">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit</p>
+                                </div>    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item wow fadeInLeft" data-wow-delay="0.4s">
+                                <h3 class="accordion__headline">3. Добавляете ли вы какие-либо консерванты в вашу продукцию?</h3>
+                                <div class="item__text-wrap">
+                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum odit eligendi expedita impedit harum fugiat? Id repudiandae iste tempore dolorem nam? Illo laborum magnam voluptate consectetur earum, est excepturi.</p>
+                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum odit eligendi expedita impedit harum fugiat? Id repudiandae iste tempore dolorem nam? Illo laborum magnam voluptate consectetur earum, est excepturi.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="accordion__item wow fadeInLeft" data-wow-delay="0.6s">
+                                <h3 class="accordion__headline">4. Как долго готовиться у вас индивидульный торт?</h3>
+                                <div class="item__text-wrap">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi illum labore iste eligendi beatae? Repellendus deserunt dignissimos provident praesentium!LoremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eos corporis fugit sint tempore nostrum voluptas neque similique doloribus totam, commodi </p>
+                                </div>
+                            </div>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION-6 -->
+    <section>
+        <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4206.349070581592!2d37.63742303709683!3d55.73543520216245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27783fd71a9834db!2z0JDQstGA0L7RgNCwINCR0LjQt9C90LXRgSDQn9Cw0YDQug!5e0!3m2!1sru!2sru!4v1568396511912!5m2!1sru!2sru" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer style="background-color: #fff;">
+        <div class="container">
+            <div class="footer">
+                <nav>
+                    <div class="footer__sidebar">
+                        <div class="header__logo">
+                            <img src="img/logo.png" alt="">
+                            <div class="header__logo-brand">
+                                <H2>Hipsweet</H2>
+                            </div>                         
+                        </div>
+                        <span>© 2019 Все права защищены</span>
+                        <span>Аврора БП, Садовническая наб., 77с1, Москва</span>
+                        <div class="menu_footer">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                            </ul>  
+                        </div>
+                            
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
